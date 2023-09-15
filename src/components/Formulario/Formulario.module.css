@@ -1,0 +1,63 @@
+form{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+input {
+    margin-top: 5px;
+    margin-right: 50px;
+    background-color: var(--corPrincipal);
+    color: #fff;
+    border-color: var(--corSecundaria);
+    font-size: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+::placeholder{
+    color: #fff;
+    text-align: center;
+}
+
+button {
+    margin-right: 45px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: var(--corPrincipal);
+    color: #fff;
+    padding: 8px;
+    border-radius: 25px;
+    font-size: 12px;
+    cursor: pointer;
+    border-color: var(--corSecundaria);
+}
+
+table {
+    width: 100%;
+}
+
+caption {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+table th {
+    border-bottom: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: var(--corPrincipal);
+}
+
+table td {
+    padding: 8px 0;
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 1px solid var(--corSecundaria);
+}
+
+tfoot {
+    text-align: center;
+    background-color: var(--corPrincipal);
+}
